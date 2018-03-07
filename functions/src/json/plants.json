@@ -1,0 +1,149 @@
+[
+  {
+    "number": 1,
+    "title": "Starlette",
+    "list": "images/garden-type-%s/plants/list/01-SK1241.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/01-SK1241.jpg",
+    "share": "images/garden-type-%s/plants/share/01-SK1241.jpg"
+  },
+  {
+    "number": 2,
+    "title": "Ticktocker",
+    "list": "images/garden-type-%s/plants/list/02-34252.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/02-34252.jpg",
+    "share": "images/garden-type-%s/plants/share/02-34252.jpg"
+  },
+  {
+    "number": 3,
+    "title": "Candycalm",
+    "list": "images/garden-type-%s/plants/list/03-UN2803.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/03-UN2803.jpg",
+    "share": "images/garden-type-%s/plants/share/03-UN2803.jpg"
+  },
+  {
+    "number": 4,
+    "title": "Sunbrellas",
+    "list": "images/garden-type-%s/plants/list/04-Y8N902.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/04-Y8N902.jpg",
+    "share": "images/garden-type-%s/plants/share/04-Y8N902.jpg"
+  },
+  {
+    "number": 5,
+    "title": "Whispering Willow",
+    "list": "images/garden-type-%s/plants/list/05-C22389.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/05-C22389.jpg",
+    "share": "images/garden-type-%s/plants/share/05-C22389.jpg"
+  },
+  {
+    "number": 6,
+    "title": "Lovelight",
+    "list": "images/garden-type-%s/plants/list/06-UG23.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/06-UG23.jpg",
+    "share": "images/garden-type-%s/plants/share/06-UG23.jpg"
+  },
+  {
+    "number": 7,
+    "title": "Daydream Lily",
+    "list": "images/garden-type-%s/plants/list/07-HUC24.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/07-HUC24.jpg",
+    "share": "images/garden-type-%s/plants/share/07-HUC24.jpg"
+  },
+  {
+    "number": 8,
+    "title": "Lady’s Lullabye",
+    "list": "images/garden-type-%s/plants/list/08-OCMI.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/08-OCMI.jpg",
+    "share": "images/garden-type-%s/plants/share/08-OCMI.jpg"
+  },
+  {
+    "number": 9,
+    "title": "Mirth & Mist",
+    "list": "images/garden-type-%s/plants/list/09-HUCF34.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/09-HUCF34.jpg",
+    "share": "images/garden-type-%s/plants/share/09-HUCF34.jpg"
+  },
+  {
+    "number": 10,
+    "title": "Summer’s Secret",
+    "list": "images/garden-type-%s/plants/list/10-CY432.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/10-CY432.jpg",
+    "share": "images/garden-type-%s/plants/share/10-CY432.jpg"
+  },
+  {
+    "number": 11,
+    "title": "Primpipper",
+    "list": "images/garden-type-%s/plants/list/11-UOC32.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/11-UOC32.jpg",
+    "share": "images/garden-type-%s/plants/share/11-UOC32.jpg"
+  },
+  {
+    "number": 12,
+    "title": "Blissful Ballad",
+    "list": "images/garden-type-%s/plants/list/12-NY792.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/12-NY792.jpg",
+    "share": "images/garden-type-%s/plants/share/12-NY792.jpg"
+  },
+  {
+    "number": 13,
+    "title": "Winkleberry ",
+    "list": "images/garden-type-%s/plants/list/13-X2398.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/13-X2398.jpg",
+    "share": "images/garden-type-%s/plants/share/13-X2398.jpg"
+  },
+  {
+    "number": 14,
+    "title": "Hushblush",
+    "list": "images/garden-type-%s/plants/list/14-78932N.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/14-78932N.jpg",
+    "share": "images/garden-type-%s/plants/share/14-78932N.jpg"
+  },
+  {
+    "number": 15,
+    "title": "Peace Ivy",
+    "list": "images/garden-type-%s/plants/list/15-Y089XY.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/15-Y089XY.jpg",
+    "share": "images/garden-type-%s/plants/share/15-Y089XY.jpg"
+  },
+  {
+    "number": 16,
+    "title": "Funflourish",
+    "list": "images/garden-type-%s/plants/list/16-XU29U8M.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/16-XU29U8M.jpg",
+    "share": "images/garden-type-%s/plants/share/16-XU29U8M.jpg"
+  },
+  {
+    "number": 17,
+    "title": "Sweetsaber",
+    "list": "images/garden-type-%s/plants/list/17-CCIJPO2.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/17-CCIJPO2.jpg",
+    "share": "images/garden-type-%s/plants/share/17-CCIJPO2.jpg"
+  },
+  {
+    "number": 18,
+    "title": "Angel Blooms",
+    "list": "images/garden-type-%s/plants/list/18-YX2W.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/18-YX2W.jpg",
+    "share": "images/garden-type-%s/plants/share/18-YX2W.jpg"
+  },
+  {
+    "number": 19,
+    "title": "Holly of Hope",
+    "list": "images/garden-type-%s/plants/list/19-HUIX.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/19-HUIX.jpg",
+    "share": "images/garden-type-%s/plants/share/19-HUIX.jpg"
+  },
+  {
+    "number": 20,
+    "title": "Melody of the Moon",
+    "list": "images/garden-type-%s/plants/list/20-UX4232.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/20-UX4232.jpg",
+    "share": "images/garden-type-%s/plants/share/20-UX4232.jpg"
+  },
+  {
+    "number": 21,
+    "title": "Zealous Zephyr",
+    "list": "images/garden-type-%s/plants/list/21-23KNOFW.jpg",
+    "basiccard": "images/garden-type-%s/plants/basiccard/21-23KNOFW.jpg",
+    "share": "images/garden-type-%s/plants/share/21-23KNOFW.jpg"
+  }
+]

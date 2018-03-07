@@ -1,0 +1,359 @@
+{
+  "general": {
+    "fallback": [
+      "Hmmm. I don’t understand. I said...",
+      "Sorry, I’m not sure what you’re asking. I said... ",
+      "That’s not something I can help with. I said..."
+    ],
+    "exit": [
+      "See you later.",
+      "I hope you’ll be back soon."
+    ]
+  },
+  "error": {
+    "general": [
+      "<speak>I'm sorry, something went wrong.<break strength=\"strong\" /></speak>",
+      "<speak>Oh no. I’m having some trouble with that.<break strength=\"strong\" /></speak>"
+    ],
+    "fatal": [
+      "Oops, something went wrong. Sorry. Please try again a little later."
+    ]
+  },
+  "welcome": {
+    "onboarding": [
+      "<speak>Welcome to 21 Days of Gratitude. Tell me what you’re grateful for, and every day I’ll reward you with a plant for your garden.<break strength=\"strong\" /> Then, over time, watch it (and your wellbeing!) flourish.<break strength=\"strong\" /></speak>"
+    ],
+    "hasNotSavedTodaysSession": [
+      "<speak>Welcome back to 21 Days of Gratitude!<break strength=\"strong\" /></speak>"
+    ],
+    "hasSavedTodaysSession": [
+      "<speak>Welcome back to 21 Days of Gratitude! Your gratitude is growing, but I can only add one plant per day.<break strength=\"strong\" /></speak>",
+      "<speak>Welcome back to 21 Days of Gratitude! I love all your enthusiasm, but you can only express your gratitude once per day.<break strength=\"strong\" /></speak>"
+    ],
+    "hasFinishedGarden": [
+      "<speak>Congrats on completing 21 days!<break strength=\"strong\" /> Take a moment to explore everything you’re grateful for, and the journey you’ve just completed.<break strength=\"strong\" /> If you like, when you’re ready, share the good news with friends and family!</speak>"
+    ]
+  },
+  "help": {
+    "text": [
+      "<speak>Studies show expressing gratitude over 21 days, has a positive impact on health and happiness. Use this app to help you cultivate yours with a garden created just for you.<break strength=\"strong\" /></speak>"
+    ]
+  },
+  "garden": {
+    "changePalette": {
+      "inviteUser": [
+        "Do you want to change the colors of the plants in your garden?"
+      ],
+      "chips": [
+        "Yes",
+        "No"
+      ],
+      "fallback": [
+        "Sorry, I think perhaps I didn’t hear you right. Do you want to change the colors of the plants in your garden?"
+      ],
+      "saysYes": {
+        "text": [
+          "Great. You can choose Meadow or Valley. What’s your preference?"
+        ],
+        "options": [
+          {
+            "title": "Meadow",
+            "synonyms": [
+              "Meadow",
+              "I like the first palette",
+              "Meadow is good"
+            ]
+          },
+          {
+            "title": "Valley",
+            "synonyms": [
+              "Valley",
+              "I like the second palette",
+              "Valley is good"
+            ]
+          }
+        ],
+        "success": [
+          "<speak>Here's your new color palette. I hope you like it.<break strength=\"x-strong\" /></speak>"
+        ],
+        "fallback": [
+          "<speak>Sorry, I think perhaps I didn’t hear you right. You can choose between Meadow and Valley.<break strength=\"strong\" /> Which would you prefer?</speak>"
+        ]
+      },
+      "saysNo": [
+        "<speak>Okay. No problem.<break strength=\"strong\" /></speak>"
+      ]
+    },
+    "show": {
+      "hasNoPlants": [
+        "First you’ll need to tell me what you’re grateful for. Then I can add a plant to your garden."
+      ],
+      "hasPlants": {
+        "fromPhone": {
+          "firstResponse": [
+            "<speak>It has been said to plant a garden is to believe in tomorrow.<break strength=\"x-strong\" /></speak>",
+            "<speak>Ahhh. I feel calm just looking at it. Good job.<break strength=\"x-strong\" /></speak>",
+            "<speak>Growth feeds the soul. And you’re doing great.<break strength=\"x-strong\" /></speak>",
+            "<speak>Well, I’m inspired. Hope you are too.<break strength=\"x-strong\" /></speak>"
+          ],
+          "basiccard": {
+            "title": [],
+            "imageAccessibilityText": "Your garden on day %s",
+            "formattedText": []
+          }
+        },
+        "fromGoogleHome": {
+          "hasAvailableScreens": {
+            "inviteToSeeIt": [
+              "May I send notifications and other items to your device?"
+            ],
+            "notificationTitle": [
+              "Check out your garden!"
+            ],
+            "saysNo": [
+              "Okay, no problem."
+            ]
+          },
+          "noAvailableScreens": [
+            "<speak>Hmmm. I couldn’t find a device to send it to. Try downloading the Google Assistant app on your phone.<break strength=\"strong\" /></speak>"
+          ]
+        }
+      }
+    },
+    "showAsList": {
+      "hasNoPlants": [
+        "First you’ll need to tell me what you’re grateful for. Then I can add a plant to your garden."
+      ],
+      "hasOnly1Plant": [
+        "<speak>Sorry, you need at least 2 plants in order to see your garden as a list. Come back and be thankful again tomorrow!<break strength=\"strong\" /></speak>"
+      ],
+      "has2PlantsOrMore": {
+        "fromPhone": {
+          "firstResponse": [
+            "See your plants and share one."
+          ],
+          "listTitle": [
+            ""
+          ]
+        },
+        "fromGoogleHome": {
+          "hasAvailableScreens": {
+            "inviteToSeeIt": [
+              "May I send notifications and other items to your device?"
+            ],
+            "notificationTitle": [
+              "Check out your garden!"
+            ],
+            "saysNo": [
+              "Okay, no problem."
+            ]
+          },
+          "noAvailableScreens": [
+            "<speak>Hmmm. I couldn’t find a device to send it to. Try downloading the Google Assistant app on your phone.<break strength=\"strong\" /></speak>"
+          ]
+        }
+      }
+    },
+    "restart": {
+      "confirm": [
+        "Are you sure? This will reset your garden."
+      ],
+      "saysYes": [
+        "<speak>No problem. There’s nothing like a fresh start.<break strength=\"x-strong\" /></speak>"
+      ],
+      "saysNo": [
+        "<speak>Okay, but remember, every bit of gratitude can benefit you.<break strength=\"strong\" /></speak>"
+      ],
+      "fallBack": [
+        "Sorry, I didn't get that. Are you sure? This will reset your garden."
+      ],
+      "chips": [
+        "Yes",
+        "No"
+      ]
+    }
+  },
+  "plant": {
+    "basiccard": {
+      "title": [
+        "Day %s: %s"
+      ],
+      "description": [
+        "Grateful for: %s"
+      ],
+      "button": "Share"
+    },
+    "hasAlreadySavedToday": [
+      "<speak>Your gratitude is growing, but I can only add one plant per day.<break strength=\"strong\" /></speak>",
+      "<speak>I love all your enthusiasm, but you can only express your gratitude once per day.<break strength=\"strong\" /></speak>"
+    ],
+    "profanityDetected": [
+      "<speak>Try not to swear this time. Let’s try again.<break strength=\"x-strong\" /> What are you grateful for?</speak>",
+      "<speak>That kind of language has to go. Let’s try again.<break strength=\"x-strong\" /> What are you grateful for?</speak>",
+      "<speak>You know what?<break strength=\"strong\" /> I’d be grateful if you didn’t swear. Can we try that again?<break strength=\"x-strong\" /> What are you grateful for?</speak>",
+      "<speak>Take a deep breath and try again without the curse words.<break strength=\"x-strong\" /> What are you grateful for?</speak>"
+    ],
+    "saveImplicit": {
+      "exit": [
+        "<speak>Take your time. You’ll figure something out. If you want to check back, just say “Talk to 21 Days of Gratitude” at any time.<break strength=\"x-strong\" /></speak>",
+        "<speak>Try to think about the little things. If you want to check back, just say “Talk to 21 Days of Gratitude” at any time.<break strength=\"x-strong\" /></speak>",
+        "<speak>No problem. Your plant will be here when you’re ready. If you want to check back, just say “Talk to 21 Days of Gratitude” at any time.<break strength=\"x-strong\" /></speak>",
+        "<speak>That’s ok. You have plenty of time to be grateful. If you want to check back, just say “Talk to 21 Days of Gratitude” at any time.<break strength=\"x-strong\" /></speak>"
+      ]
+    },
+    "saveConfirm": {
+      "ask": [
+        "I think you said %s. Is that right?"
+      ],
+      "chips": [
+        "Yes",
+        "No"
+      ],
+      "saysNo": [
+        "<speak>Good thing I asked! Let’s try again.<break strength=\"strong\" /> What are you grateful for?</speak>"
+      ]
+    },
+    "edit": [
+      "<speak>Sorry, but your plant is already flourishing in your garden. Perhaps you could share a new thought tomorrow?<break strength=\"x-strong\" /></speak>"
+    ],
+    "saved": {
+      "fromPhone": [
+        "<speak>Great! I’ve added this plant to your garden as a reminder of your gratitude. Feel free to share it.<break strength=\"x-strong\" /></speak>"
+      ],
+      "fromGoogleHome": {
+        "hasAvailableScreens": {
+          "inviteToSeeIt": [
+            "May I send notifications and other items to your device?"
+          ],
+          "notificationTitle": [
+            "Check out your plant!"
+          ],
+          "saysNo": [
+            "Okay, no problem."
+          ]
+        },
+        "noAvailableScreens": [
+          "<speak>Hmmm. I couldn’t find a device to send it to. Try downloading the Google Assistant app on your phone.<break strength=\"strong\" /></speak>"
+        ]
+      }
+    },
+    "search": {
+      "noDay": [
+        "What day are you looking for?"
+      ],
+      "cantFindPlant": [
+        "<speak>There’s no plant for the day you’re searching.<break strength=\"strong\" /></speak>"
+      ],
+      "foundPlant": {
+        "fromPhone": [
+          "<speak>On Day %s, this is what you were grateful for. Gratitude is so gratifying, isn’t it?<break strength=\"x-strong\" /></speak>",
+          "<speak>On Day %s, this is what you were grateful for. I’m grateful you shared it.<break strength=\"x-strong\" /></speak>",
+          "<speak>On Day %s, this is what you were grateful for. I bet it feels good to feel that gratitude again.<break strength=\"x-strong\" /></speak>",
+          "<speak>On Day %s, this is what you were grateful for. Isn’t it nice to reflect on it again?<break strength=\"x-strong\" /></speak>",
+          "<speak>On Day %s, this is what you were grateful for. Hope you still feel as grateful today as you did then.<break strength=\"x-strong\" /></speak>"
+        ],
+        "fromGoogleHome": {
+          "hasAvailableScreens": {
+            "inviteToSeeIt": [
+              "May I send notifications and other items to your device?"
+            ],
+            "notificationTitle": [
+              "Check out your plant!"
+            ],
+            "saysNo": [
+              "Okay, no problem."
+            ]
+          },
+          "noAvailableScreens": [
+            "<speak>Hmmm. I couldn’t find a device to send it to. Try downloading the Google Assistant app on your phone.<break strength=\"strong\" /></speak>"
+          ]
+        }
+      }
+    }
+  },
+  "dailyUpdate": {
+    "saysYes": [
+      "Ok, I’ll start sending you daily reminders at that time."
+    ],
+    "saysNo": [
+      "No problem, I won't send you daily updates."
+    ]
+  },
+  "lastPrompt": {
+    "dailyUpdateChip": "Turn daily updates on",
+    "hasNotSavedTodaysSession": {
+      "speech": [
+        "<speak>Day %s: So what are you grateful for today?<break strength=\"strong\" /> You can say things like I'm grateful for<break strength=\"strong\" />"
+      ],
+      "displayText": [
+        "Day %s: So what are you grateful for today? You can say things like I'm grateful for..."
+      ],
+      "chips": [
+        "My Family",
+        "My Awesome Friends",
+        "Good Health",
+        "Binge Watching",
+        "My Side Hustles",
+        "My Gadgets",
+        "Good Music",
+        "The Great Outdoors",
+        "Belly Laughs",
+        "That Special Someone",
+        "Generosity",
+        "Caffeine",
+        "Sunshine",
+        "The Weekend!",
+        "Vaycay"
+      ],
+      "menu": {
+        "speech": [
+          "<speak>Here are some things you can ask me about.<break strength=\"strong\" />"
+        ],
+        "displayText": [
+          "Here are some things you can ask me about:"
+        ],
+        "chips": [
+          "Today's Gratitude",
+          "Show me my Garden",
+          "Search by Day",
+          "Help",
+          "Start over"
+        ]
+      }
+    },
+    "hasSavedTodaysSession": {
+      "speech": [
+        "<speak>Here are some things you can ask me about.<break strength=\"strong\" />"
+      ],
+      "displayText": [
+        "Here are some things you can ask me about:"
+      ],
+      "chips": [
+        "Show me my Garden",
+        "Search by Day",
+        "Help",
+        "Start over"
+      ],
+      "chipsWithShowGardenAsList": [
+        "Show Garden as list",
+        "Search by Day",
+        "Help",
+        "Start Over"
+      ]
+    },
+    "hasFinishedGarden": {
+      "speech": [
+        "<speak>Amazing. Your garden is finally complete!<break strength=\"strong\" /> If you want, you can start a new one. Or take a moment to think about all the things you’re grateful for.<break strength=\"strong\" /> When you’re ready, you can even share your garden with friends and family.<break strength=\"x-strong\" /> Here are some things you can ask me about.<break strength=\"strong\" />"
+      ],
+      "displayText": [
+        "Amazing. Your garden is finally complete! If you want, you can start a new one. Or take a moment to think about all the things you’re grateful for. When you’re ready, you can even share your garden with friends and family. Here are some things you can ask me about:"
+      ],
+      "chips": [
+        "Start over",
+        "Show Garden as list",
+        "Search by Day",
+        "Help"
+      ]
+    }
+  }
+}

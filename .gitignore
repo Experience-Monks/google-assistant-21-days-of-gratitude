@@ -1,0 +1,28 @@
+# Global
+.DS_Store
+*.log
+
+# IDE
+.vscode
+
+# Tests
+.nyc_output
+coverage
+
+# Build
+lambda-*.zip
+
+# NPM
+node_modules
+npm-debug.log.*
+.env
+.credential
+context.json
+deploy.env
+event.json
+event_sources.json
+package-lock.json
+.lambda
+/test/config.json
+.credential*.json
+.firebaserc
