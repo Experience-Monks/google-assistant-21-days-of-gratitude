@@ -1,0 +1,110 @@
+{
+  "default": "images/garden-type-%s/default.jpg",
+  "gardens": [
+    {
+      "number": 1,
+      "title": "Garden 1",
+      "basiccard": "images/garden-type-%s/gardens/01-SK1241-v1.jpg"
+    },
+    {
+      "number": 2,
+      "title": "Garden 2",
+      "basiccard": "images/garden-type-%s/gardens/02-34252-v1.jpg"
+    },
+    {
+      "number": 3,
+      "title": "Garden 3",
+      "basiccard": "images/garden-type-%s/gardens/03-UN2803-v1.jpg"
+    },
+    {
+      "number": 4,
+      "title": "Garden 4",
+      "basiccard": "images/garden-type-%s/gardens/04-Y8N902-v1.jpg"
+    },
+    {
+      "number": 5,
+      "title": "Garden 5",
+      "basiccard": "images/garden-type-%s/gardens/05-C22389-v1.jpg"
+    },
+    {
+      "number": 6,
+      "title": "Garden 6",
+      "basiccard": "images/garden-type-%s/gardens/06-UG23-v1.jpg"
+    },
+    {
+      "number": 7,
+      "title": "Garden 7",
+      "basiccard": "images/garden-type-%s/gardens/07-HUC24-v1.jpg"
+    },
+    {
+      "number": 8,
+      "title": "Garden 8",
+      "basiccard": "images/garden-type-%s/gardens/08-OCMI-v1.jpg"
+    },
+    {
+      "number": 9,
+      "title": "Garden 9",
+      "basiccard": "images/garden-type-%s/gardens/09-HUCF34-v1.jpg"
+    },
+    {
+      "number": 10,
+      "title": "Garden 10",
+      "basiccard": "images/garden-type-%s/gardens/10-CY432-v1.jpg"
+    },
+    {
+      "number": 11,
+      "title": "Garden 11",
+      "basiccard": "images/garden-type-%s/gardens/11-UOC32-v1.jpg"
+    },
+    {
+      "number": 12,
+      "title": "Garden 12",
+      "basiccard": "images/garden-type-%s/gardens/12-NY792-v1.jpg"
+    },
+    {
+      "number": 13,
+      "title": "Garden 13",
+      "basiccard": "images/garden-type-%s/gardens/13-X2398-v1.jpg"
+    },
+    {
+      "number": 14,
+      "title": "Garden 14",
+      "basiccard": "images/garden-type-%s/gardens/14-78932N-v1.jpg"
+    },
+    {
+      "number": 15,
+      "title": "Garden 15",
+      "basiccard": "images/garden-type-%s/gardens/15-Y089XY-v1.jpg"
+    },
+    {
+      "number": 16,
+      "title": "Garden 16",
+      "basiccard": "images/garden-type-%s/gardens/16-XU29U8M-v1.jpg"
+    },
+    {
+      "number": 17,
+      "title": "Garden 17",
+      "basiccard": "images/garden-type-%s/gardens/17-CCIJPO2-v1.jpg"
+    },
+    {
+      "number": 18,
+      "title": "Garden 18",
+      "basiccard": "images/garden-type-%s/gardens/18-YX2W-v1.jpg"
+    },
+    {
+      "number": 19,
+      "title": "Garden 19",
+      "basiccard": "images/garden-type-%s/gardens/19-HUIX-v1.jpg"
+    },
+    {
+      "number": 20,
+      "title": "Garden 20",
+      "basiccard": "images/garden-type-%s/gardens/20-UX4232-v1.jpg"
+    },
+    {
+      "number": 21,
+      "title": "Garden 21",
+      "basiccard": "images/garden-type-%s/gardens/21-23KNOFW-v1.jpg"
+    }
+  ]
+}
