@@ -15,7 +15,7 @@ module.exports.makeTwitter = (url) => {
   let tweetNew = encodeURI(url);
   tweetNew = amperOctoPlus(tweetNew);
 
-  return "https://twitter.com/home?status=" + tweetNew;
+  return "https://twitter.com/intent/tweet?url=" + tweetNew;
 };
 
 module.exports.makeGPlus = (url) => {
