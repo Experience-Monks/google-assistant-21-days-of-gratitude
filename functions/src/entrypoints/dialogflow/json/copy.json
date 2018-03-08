@@ -1,9 +1,9 @@
 {
   "general": {
     "fallback": [
-      "Hmmm. I don’t understand. I said...",
-      "Sorry, I’m not sure what you’re asking. I said... ",
-      "That’s not something I can help with. I said..."
+      "Hmmm. I don’t understand. ",
+      "Sorry, I’m not sure what you’re asking. ",
+      "That’s not something I can help with. "
     ],
     "exit": [
       "See you later.",
@@ -21,10 +21,10 @@
   },
   "welcome": {
     "onboarding": [
-      "<speak>Welcome to 21 Days of Gratitude. Tell me what you’re grateful for, and every day I’ll reward you with a plant for your garden.<break strength=\"strong\" /> Then, over time, watch it (and your wellbeing!) flourish.<break strength=\"strong\" /></speak>"
+      "<speak>Welcome to 21 Days of Gratitude. Here, you’ll be able to log and share the things you’re grateful for, and every day I’ll reward you with a plant for your garden. Over time, watch it (and your wellbeing!) flourish!<break strength=\"strong\" /></speak>"
     ],
     "hasNotSavedTodaysSession": [
-      "<speak>Welcome back to 21 Days of Gratitude!<break strength=\"strong\" /></speak>"
+      "<speak>Welcome back to 21 Days of Gratitude.<break strength=\"strong\" /> Let's grow your garden.<break strength=\"strong\" /></speak>"
     ],
     "hasSavedTodaysSession": [
       "<speak>Welcome back to 21 Days of Gratitude! Your gratitude is growing, but I can only add one plant per day.<break strength=\"strong\" /></speak>",
