@@ -1,0 +1,38 @@
+[
+  {
+    "id": "b9baedf2-59a3-450c-a16f-9cfd6c220084",
+    "data": [
+      {
+        "text": "plant_save_implicit_trigger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519666346
+  },
+  {
+    "id": "289edfa1-a066-4ae7-b815-9822ab57efd9",
+    "data": [
+      {
+        "text": "Turn Daily Updates on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518711496
+  },
+  {
+    "id": "ae06006e-b033-4cdf-84b9-b499c96040d3",
+    "data": [
+      {
+        "text": "Daily updates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518547293
+  }
+]

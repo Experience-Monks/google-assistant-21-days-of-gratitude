@@ -1,0 +1,40 @@
+{
+  "id": "03cf12f1-5337-4e42-89ad-67f930cf95e7",
+  "name": "7.3 - Restart garden - Fallback - garden_restart",
+  "auto": true,
+  "contexts": [
+    "garden_restart"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fallback.garden_restart",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9d2ad518-3904-4519-a804-f3f0e9868800",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760152,
+  "fallbackIntent": false,
+  "events": []
+}

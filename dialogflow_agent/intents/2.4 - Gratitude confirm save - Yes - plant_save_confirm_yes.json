@@ -1,0 +1,31 @@
+{
+  "id": "b1c9f4c2-9c70-4527-960a-a4bdd92aa2b7",
+  "name": "2.4 - Gratitude confirm save - Yes - plant_save_confirm_yes",
+  "auto": true,
+  "contexts": [
+    "plant_save_confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_save_confirm_yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759861,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "7322dc47-bdf9-4a9e-b4c8-40c102e717ae",
+  "name": "2.1 - Gratitude implicit save - plant_save_implicit",
+  "auto": true,
+  "contexts": [
+    "plant_save_implicit"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_save_implicit",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "83a3ef08-df6c-4327-a85a-ec6d45f61b58",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759812,
+  "fallbackIntent": false,
+  "events": []
+}

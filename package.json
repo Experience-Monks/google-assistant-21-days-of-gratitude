@@ -1,7 +1,7 @@
 {
   "name": "google-assistant-21-days-of-gratitude",
   "version": "0.0.1",
-  "description": "Google Assistant 21 Days of Gratitude",
+  "description": "21 Days of Gratitude Actions for the Google Assistant",
   "private": true,
   "license": "MIT",
   "engines": {
@@ -12,24 +12,14 @@
     "url": "https://github.com/Jam3/google-assistant-21-days-of-gratitude.git"
   },
   "contributors": [
-    "Santiago D'Antuoni <santiago.dantuoni@jam3.com>",
-    "Guillermo Figueroa <guillermo.figueroa@jam3.com>",
-    "Craig Hill <craig.hillwood@jam3.com>"
+    "Santiago D'Antuoni (https://github.com/sdantuoni)",
+    "Guillermo Figueroa (https://github.com/gfirem)",
+    "Craig Hill (https://github.com/craighillwood)"
   ],
   "scripts": {
-    "external": "cd functions && npm run external",
-    "test": "cd functions && PRJ_MOCHA=true NODE_ENV=test nyc mocha",
-    "js-lint": "cd functions && npm run js-lint",
-    "local": "firebase serve",
-    "local:functions": "firebase serve --only functions",
-    "local:hosting": "firebase serve --only hosting",
-    "deploy": "firebase deploy",
-    "deploy:functions": "firebase deploy --only functions",
-    "deploy:hosting": "firebase deploy --only hosting",
-    "fnc_deploy:dialog": "cd functions && npm run fnc_deploy:dialog",
-    "fnc_reset:dialog": "cd functions && npm run fnc_reset:dialog",
-    "fnc_debug:dialog": "cd functions && npm run fnc_debug:dialog",
-    "fnc_restart:dialog": "cd functions && npm run fnc_restart:dialog"
+    "postinstall": "cd functions && npm install",
+    "functions:config": "firebase functions:config:set project.gcloud_project=\"[GCLOUD_PROJECT]\" project.security_header=\"[SECURITY_HEADER]\"",
+    "deploy": "npm run functions:config && firebase deploy"
   },
   "keywords": [
     "bot",

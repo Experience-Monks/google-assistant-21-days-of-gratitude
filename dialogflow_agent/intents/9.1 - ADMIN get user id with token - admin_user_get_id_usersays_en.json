@@ -1,0 +1,20 @@
+[
+  {
+    "id": "b51f1eb4-daff-4cd3-9a9d-2f435e53045b",
+    "data": [
+      {
+        "text": "Get user id with token ",
+        "userDefined": false
+      },
+      {
+        "text": "any",
+        "alias": "token",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519150277
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "14e855d9-1694-4450-b657-dc16e237913e",
+  "name": "0.2 - New surface - new_surface",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.new_surface",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759762,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_NEW_SURFACE"
+    }
+  ]
+}

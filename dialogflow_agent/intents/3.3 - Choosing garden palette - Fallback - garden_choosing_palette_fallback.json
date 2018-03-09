@@ -1,0 +1,40 @@
+{
+  "id": "9d456396-71eb-4a1d-b91c-f633cad431b5",
+  "name": "3.3 - Choosing garden palette - Fallback - garden_choosing_palette_fallback",
+  "auto": true,
+  "contexts": [
+    "garden_choosing_palette"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.garden_choosing_palette_fallback",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0bb6e9fc-d4da-48be-9e06-bfb41b7dde8a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759987,
+  "fallbackIntent": false,
+  "events": []
+}

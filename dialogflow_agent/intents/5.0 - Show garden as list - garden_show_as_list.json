@@ -1,0 +1,29 @@
+{
+  "id": "a8905235-58e2-401c-adcd-209fc4ff41db",
+  "name": "5.0 - Show garden as list - garden_show_as_list",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.garden_show_as_list",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760036,
+  "fallbackIntent": false,
+  "events": []
+}

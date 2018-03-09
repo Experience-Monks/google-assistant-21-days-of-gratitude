@@ -1,0 +1,40 @@
+{
+  "id": "67539ef6-1633-4afa-9e20-05a264851bf8",
+  "name": "2.2 - Gratitude implicit exit - plant_save_implicit_exit",
+  "auto": true,
+  "contexts": [
+    "plant_save_implicit"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_save_implicit_exit",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f5ce09ea-832b-4bb4-a098-46e23d8d126d",
+          "required": false,
+          "dataType": "@Grateful",
+          "name": "Grateful",
+          "value": "$Grateful",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759826,
+  "fallbackIntent": false,
+  "events": []
+}

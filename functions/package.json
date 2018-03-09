@@ -1,36 +1,13 @@
 {
   "name": "google-assistant-21-days-of-gratitude",
   "version": "0.0.1",
-  "description": "Google Assistant 21 Days of Gratitude",
   "private": true,
   "license": "MIT",
   "main": "index.js",
   "engines": {
     "node": ">=6.11.5"
   },
-  "pre-push": [
-    "prepush-msg",
-    "test",
-    "js-lint"
-  ],
-  "scripts": {
-    "share:local": "nodemon ./src/entrypoints/frontend",
-    "external": "ngrok http 5000",
-    "test": "PRJ_MOCHA=true NODE_ENV=test nyc mocha",
-    "js-lint": "eslint './**/*.js' -c ./.eslintrc --quiet --ignore-pattern .gitignore",
-    "prepush-msg": "echo 'Pre-push checks...' && exit 0",
-    "local": "firebase serve --only functions",
-    "shell": "firebase experimental:functions:shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log",
-    "fnc_deploy:dialog": " functions deploy fulfillmentEntryPoint --trigger-http",
-    "fnc_reset:dialog": "functions reset fulfillmentEntryPoint --keep",
-    "fnc_debug:dialog": "functions inspect fulfillmentEntryPoint",
-    "fnc_restart:dialog": "npm run fnc_deploy:dialog && npm run fnc_debug:dialog",
-    "fnc_deploy:share": " functions deploy shareFlower --trigger-http",
-    "fnc_reset:share": "FNC_LOCAL=true functions reset shareFlower --keep",
-    "fnc_debug:share": "FNC_LOCAL=true functions inspect shareFlower"
-  },
+  "scripts": {},
   "dependencies": {
     "actions-on-google": "^1.0.0",
     "async": "2.5.0",

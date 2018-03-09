@@ -1,0 +1,27 @@
+{
+  "id": "f9fdaf85-34a3-480d-a301-3b8c22ba5591",
+  "name": "1.0 - Help - help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.help",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759796,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "EVENT_HELP"
+    }
+  ]
+}

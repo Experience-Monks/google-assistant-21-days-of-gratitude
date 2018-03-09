@@ -1,0 +1,38 @@
+{
+  "id": "23edf617-f718-40b0-ab2f-ddd131b79d83",
+  "name": "2.7 - Gratitude Edit - plant_edit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_edit",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c2810130-4ff7-4d80-9506-abb59b133931",
+          "required": false,
+          "dataType": "@intention-to-say",
+          "name": "intention-to-say",
+          "value": "$intention-to-say",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759908,
+  "fallbackIntent": false,
+  "events": []
+}
