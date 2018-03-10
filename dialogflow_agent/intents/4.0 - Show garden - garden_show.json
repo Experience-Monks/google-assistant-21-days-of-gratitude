@@ -1,0 +1,23 @@
+{
+  "id": "1430dd8e-2a1c-41e4-aec7-23ee8791ce87",
+  "name": "4.0 - Show garden - garden_show",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.garden_show",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760009,
+  "fallbackIntent": false,
+  "events": []
+}

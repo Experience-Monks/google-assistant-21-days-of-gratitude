@@ -1,0 +1,86 @@
+[
+  {
+    "id": "6e3284c6-e735-426d-9910-e418a19e58df",
+    "data": [
+      {
+        "text": "today",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519741825
+  },
+  {
+    "id": "394f9555-138b-47ff-befb-ae00f92bba41",
+    "data": [
+      {
+        "text": "4",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      },
+      {
+        "text": " days ",
+        "userDefined": false
+      },
+      {
+        "text": "ago",
+        "alias": "gratitudeDaysDirection",
+        "meta": "@GratitudeDaysDirection",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519741825
+  },
+  {
+    "id": "74543555-b6e2-4c58-992a-7df5304c6cf3",
+    "data": [
+      {
+        "text": "March 3rd 2018",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519741274
+  },
+  {
+    "id": "11e57547-9323-44f3-a0e0-b18905758769",
+    "data": [
+      {
+        "text": "any",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519741274
+  },
+  {
+    "id": "22f8eb1d-a0ef-45be-9f16-437383df2dc8",
+    "data": [
+      {
+        "text": "Day ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519741825
+  }
+]

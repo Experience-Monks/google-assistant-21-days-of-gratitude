@@ -1,0 +1,60 @@
+{
+  "id": "fa3a0655-b842-4cd9-bbd9-85d9969a815d",
+  "name": "2.3 - Gratitude explicit save - plant_save_explicit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_save_explicit",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d68d5853-db5b-4cc9-96b0-b274936f0377",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What are you grateful for?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b6129ad1-3a04-4d54-b0d0-4f7dc94ca4eb",
+          "required": false,
+          "dataType": "@Grateful",
+          "name": "Grateful",
+          "value": "$Grateful",
+          "isList": false
+        },
+        {
+          "id": "3fa218f6-7a8c-46e0-bf6b-d4ecb4f577a4",
+          "required": false,
+          "dataType": "@GratefulAppend",
+          "name": "GratefulAppend",
+          "value": "$GratefulAppend",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759844,
+  "fallbackIntent": false,
+  "events": []
+}

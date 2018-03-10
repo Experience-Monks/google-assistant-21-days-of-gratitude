@@ -1,0 +1,29 @@
+{
+  "id": "8dd7529e-1cdf-4121-85c3-6f7f778f7a69",
+  "name": "6.0 - Search by day implicit trigger - plant_search_implicit_trigger",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_search_implicit_trigger",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760047,
+  "fallbackIntent": false,
+  "events": []
+}

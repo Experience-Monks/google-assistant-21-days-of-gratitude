@@ -1,0 +1,29 @@
+{
+  "id": "b1d7ee4b-8760-4f39-8013-e35eade348c1",
+  "name": "8.0 - SXSW delete todays plant - sxsw_plant_delete_today",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.sxsw_plant_delete_today",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760164,
+  "fallbackIntent": false,
+  "events": []
+}

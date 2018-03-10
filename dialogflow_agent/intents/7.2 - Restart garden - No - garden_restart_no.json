@@ -1,0 +1,31 @@
+{
+  "id": "0e0dd9fd-a90c-4783-9f65-1b7d7b5d2209",
+  "name": "7.2 - Restart garden - No - garden_restart_no",
+  "auto": true,
+  "contexts": [
+    "garden_restart"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.garden_restart_no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760121,
+  "fallbackIntent": false,
+  "events": []
+}

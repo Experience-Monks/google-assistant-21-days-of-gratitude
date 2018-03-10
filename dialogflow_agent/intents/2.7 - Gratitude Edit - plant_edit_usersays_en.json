@@ -1,0 +1,56 @@
+[
+  {
+    "id": "350e248b-e9de-46dc-b8e6-a6efd292ee4f",
+    "data": [
+      {
+        "text": "Change what I ",
+        "userDefined": false
+      },
+      {
+        "text": "said",
+        "alias": "intention-to-say",
+        "meta": "@intention-to-say",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518798738
+  },
+  {
+    "id": "a292dea0-8acd-4428-8848-b44e6df0b822",
+    "data": [
+      {
+        "text": "Edit my gratitude",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518798738
+  },
+  {
+    "id": "5341a9a9-4698-45e0-9a51-c45c124cacc8",
+    "data": [
+      {
+        "text": "Change my gratitude",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518798738
+  },
+  {
+    "id": "44825313-071e-4369-b843-b4cd81bb0274",
+    "data": [
+      {
+        "text": "Wants to change item of gratitude already submitted",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518627579
+  }
+]

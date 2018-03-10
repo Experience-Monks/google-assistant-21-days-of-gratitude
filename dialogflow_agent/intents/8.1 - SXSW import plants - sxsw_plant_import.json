@@ -1,0 +1,38 @@
+{
+  "id": "4a67cd7e-38f5-4c4c-8e5a-92c20b83f476",
+  "name": "8.1 - SXSW import plants - sxsw_plant_import",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.sxsw_plant_import",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f6800cd7-95f8-4da0-bdbd-59915777aea2",
+          "required": false,
+          "dataType": "@GratitudeDays",
+          "name": "gratitudeDays",
+          "value": "$gratitudeDays",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760178,
+  "fallbackIntent": false,
+  "events": []
+}

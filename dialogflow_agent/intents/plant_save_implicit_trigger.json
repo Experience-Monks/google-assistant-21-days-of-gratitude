@@ -1,0 +1,23 @@
+{
+  "id": "60042863-33ce-41da-9c25-95e94c767575",
+  "name": "plant_save_implicit_trigger",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_save_implicit_trigger",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519239891,
+  "fallbackIntent": false,
+  "events": []
+}

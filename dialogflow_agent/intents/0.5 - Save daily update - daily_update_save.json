@@ -1,0 +1,33 @@
+{
+  "id": "1a7241cb-4eed-4f59-a051-eb4caf179588",
+  "name": "0.5 - Save daily update - daily_update_save",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.daily_update_save",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518632229,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_REGISTER_UPDATE"
+    }
+  ]
+}

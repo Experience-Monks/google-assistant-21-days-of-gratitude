@@ -1,0 +1,26 @@
+[
+  {
+    "id": "f3f5a521-dc01-440a-8825-b2db570b073d",
+    "data": [
+      {
+        "text": "Search",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519741378
+  },
+  {
+    "id": "27120faf-2f31-4daf-920e-7c211f6a8711",
+    "data": [
+      {
+        "text": "Search by day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519740619
+  }
+]

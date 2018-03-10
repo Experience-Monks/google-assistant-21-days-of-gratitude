@@ -1,0 +1,64 @@
+{
+  "id": "371322c3-cd4f-4650-9621-94c34ded18f2",
+  "name": "6.1 - Search by day implicit search - plant_search",
+  "auto": true,
+  "contexts": [
+    "plant_search_implicit"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_search",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1df34168-c86f-4b13-8ce9-e99fca7770fd",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        },
+        {
+          "id": "8b318ffa-8117-4b3c-a3ac-9f6ebdf0abc9",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "6f6b86d7-a7ee-438f-b153-db69b0c3d505",
+          "required": false,
+          "dataType": "@GratitudeDays",
+          "name": "gratitudeDays",
+          "value": "$gratitudeDays",
+          "isList": false
+        },
+        {
+          "id": "e5ae3c52-a326-46f7-a379-6f3aa3bebaed",
+          "required": false,
+          "dataType": "@GratitudeDaysDirection",
+          "name": "gratitudeDaysDirection",
+          "value": "$gratitudeDaysDirection",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760060,
+  "fallbackIntent": false,
+  "events": []
+}

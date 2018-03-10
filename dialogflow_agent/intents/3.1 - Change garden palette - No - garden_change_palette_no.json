@@ -1,0 +1,25 @@
+{
+  "id": "5f5b8057-beaa-4550-ae17-ae59c0cb75fb",
+  "name": "3.1 - Change garden palette - No - garden_change_palette_no",
+  "auto": true,
+  "contexts": [
+    "garden_change_palette"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.garden_change_palette_no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759938,
+  "fallbackIntent": false,
+  "events": []
+}

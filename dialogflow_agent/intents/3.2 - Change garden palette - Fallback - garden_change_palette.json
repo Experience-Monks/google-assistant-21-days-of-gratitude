@@ -1,0 +1,40 @@
+{
+  "id": "833811e8-dd75-424f-9687-87f76a6d94e0",
+  "name": "3.2 - Change garden palette - Fallback - garden_change_palette",
+  "auto": true,
+  "contexts": [
+    "garden_change_palette"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fallback.garden_change_palette",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7fc3ce15-1d83-4b65-b2aa-3b1458c2bb4a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519759973,
+  "fallbackIntent": false,
+  "events": []
+}

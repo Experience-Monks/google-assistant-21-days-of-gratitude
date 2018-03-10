@@ -1,0 +1,64 @@
+{
+  "id": "cdf4ac66-1a44-4edf-b67d-054e4812fa2e",
+  "name": "6.2 - Search by day explicit search - plant_search",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.plant_search",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "493e8b66-fa77-48b6-bbb5-48221b4bfcd1",
+          "required": false,
+          "dataType": "@GratefulAppend",
+          "name": "gratefulAppend",
+          "value": "$gratefulAppend",
+          "isList": false
+        },
+        {
+          "id": "4c66ff9a-3e2f-45eb-bf84-26500ce9b715",
+          "required": false,
+          "dataType": "@Grateful",
+          "name": "grateful",
+          "value": "$grateful",
+          "isList": false
+        },
+        {
+          "id": "0aed35ce-8062-4786-9241-5c0a3ecdc57a",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "5faffbe4-d12e-4600-a5ea-48247b5d9271",
+          "required": false,
+          "dataType": "@GratitudeDays",
+          "name": "gratitudeDays",
+          "value": "$gratitudeDays",
+          "isList": false
+        },
+        {
+          "id": "6ca69765-7cfc-4753-a367-2982ad8961d2",
+          "required": false,
+          "dataType": "@GratitudeDaysDirection",
+          "name": "gratitudeDaysDirection",
+          "value": "$gratitudeDaysDirection",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519760076,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "e10f87e5-4e9e-439b-901b-1f24554d8aad",
+    "data": [
+      {
+        "text": "import ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      },
+      {
+        "text": " plants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519741774
+  },
+  {
+    "id": "80cf106e-e649-4a85-8a55-6a90591629be",
+    "data": [
+      {
+        "text": "import plants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519741774
+  }
+]

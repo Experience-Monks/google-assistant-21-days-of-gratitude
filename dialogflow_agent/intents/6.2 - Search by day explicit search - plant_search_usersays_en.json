@@ -1,0 +1,350 @@
+[
+  {
+    "id": "11a00f59-73ee-40fb-9111-185234805664",
+    "data": [
+      {
+        "text": "What was I ",
+        "userDefined": false
+      },
+      {
+        "text": "grateful",
+        "alias": "grateful",
+        "meta": "@Grateful",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      },
+      {
+        "text": " days ",
+        "userDefined": false
+      },
+      {
+        "text": "ago",
+        "alias": "gratitudeDaysDirection",
+        "meta": "@GratitudeDaysDirection",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "6b56e3c1-4ded-48c5-9372-599a37e07f88",
+    "data": [
+      {
+        "text": "What was I ",
+        "userDefined": false
+      },
+      {
+        "text": "grateful",
+        "alias": "grateful",
+        "meta": "@Grateful",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " day ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "75fd5a26-6cf9-4204-aae7-90d7d46dfeba",
+    "data": [
+      {
+        "text": "What was I ",
+        "userDefined": false
+      },
+      {
+        "text": "grateful",
+        "alias": "grateful",
+        "meta": "@Grateful",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "43e683c4-3b04-41b7-9774-eef307acfd78",
+    "data": [
+      {
+        "text": "Show me ",
+        "userDefined": false
+      },
+      {
+        "text": "yesterday",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "ab255df6-a26b-42fb-85e6-6a21ca1cfc5e",
+    "data": [
+      {
+        "text": "Show me day ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "57257fc1-1ea0-4ea7-a5c2-483de46a59a8",
+    "data": [
+      {
+        "text": "Search ",
+        "userDefined": false
+      },
+      {
+        "text": "March 3rd 2018",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "ccbac48e-d716-4b88-9e3d-9b1f8b998482",
+    "data": [
+      {
+        "text": "Search ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "March 3rd 2018",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "fd7344d0-9886-4692-a24e-5b6e28c115cc",
+    "data": [
+      {
+        "text": "Search ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      },
+      {
+        "text": " days ",
+        "userDefined": false
+      },
+      {
+        "text": "ago",
+        "alias": "gratitudeDaysDirection",
+        "meta": "@GratitudeDaysDirection",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "8eabae15-9c25-4477-aa30-e04370efa46d",
+    "data": [
+      {
+        "text": "Search ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " day ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "0f8aaf0c-552b-4886-a7f9-5bcca0fd5b70",
+    "data": [
+      {
+        "text": "Search ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "gratitudeDays",
+        "meta": "@GratitudeDays",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "2ab07b57-ee8a-46ed-ae3a-561527a6e671",
+    "data": [
+      {
+        "text": "Search by day ",
+        "userDefined": false
+      },
+      {
+        "text": "March 3rd 2018",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519742583
+  },
+  {
+    "id": "fed8158d-838d-40a7-b3ce-b1264d75dae4",
+    "data": [
+      {
+        "text": "tell me what i was ",
+        "userDefined": false
+      },
+      {
+        "text": "grateful",
+        "alias": "grateful",
+        "meta": "@Grateful",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "for",
+        "alias": "gratefulAppend",
+        "meta": "@GratefulAppend",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1519742583
+  }
+]

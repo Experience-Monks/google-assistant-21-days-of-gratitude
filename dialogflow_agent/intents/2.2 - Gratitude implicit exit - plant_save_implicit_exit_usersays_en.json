@@ -1,0 +1,44 @@
+[
+  {
+    "id": "a649ee7e-7eff-4bcf-882b-33c1e548435e",
+    "data": [
+      {
+        "text": "Nothing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518015237
+  },
+  {
+    "id": "c654cd0b-dce8-4943-9720-b7cfa34f719f",
+    "data": [
+      {
+        "text": "I\u0027m not ",
+        "userDefined": false
+      },
+      {
+        "text": "grateful",
+        "alias": "Grateful",
+        "meta": "@Grateful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518015237
+  },
+  {
+    "id": "4b4fe54e-4fa7-437a-880f-93ea88ed4310",
+    "data": [
+      {
+        "text": "I don\u0027t know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1518015237
+  }
+]

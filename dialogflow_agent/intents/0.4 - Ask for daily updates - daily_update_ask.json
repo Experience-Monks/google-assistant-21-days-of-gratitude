@@ -1,0 +1,33 @@
+{
+  "id": "db5e3fb3-0ac9-4dcf-8a93-13526dd0091d",
+  "name": "0.4 - Ask for daily updates - daily_update_ask",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.daily_update_ask",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519666346,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_CONFIGURE_UPDATES"
+    }
+  ]
+}
