@@ -11,7 +11,7 @@ This is an experiment, not an official Google product. We will do our best to su
 
 21 Days of Gratitude is built on [Actions on Google](https://developers.google.com/actions/), the platform that allows you to make things for the Google Assistant and the Google Home. It uses [Dialogflow](https://dialogflow.com/) to handle understanding what the user says, [Firebase Cloud Functions](https://firebase.google.com/docs/functions/) for backend code, [Firebase Cloud Firestore](https://firebase.google.com/docs/firestore/) to save data and [Firebase Hosting](https://firebase.google.com/docs/hosting/) to host assets. The project is written in JavaScript, using Actions on Google’s [Node.js client library](https://developers.google.com/actions/nodejs-client-library-release-notes).
 
-This repo contains a pre-built Dialogflow Agent you can import into your own project. It contains all the Intents and Entities for Mystery Animal. This is all in the `dialogflow_agent` folder.
+This repo contains a pre-built Dialogflow Agent you can import into your own project. It contains all the Intents and Entities for 21 Days of Gratitude. This is all in the `dialogflow_agent` folder.
 
 Everything in the `functions` folder is used in Firebase Cloud Functions, which hosts the webhook code for Dialogflow as well as the share page entrypoint. The webhook handles all the response logic for 21 Days of Gratitude.
 
